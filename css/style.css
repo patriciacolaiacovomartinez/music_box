@@ -1,0 +1,65 @@
+body{
+    padding: 0;
+    margin: 5vh 0vw 0vh 0vw;
+    display: flex;
+    justify-content: center;
+       
+}
+.piano {
+    border: 1px solid black;
+    display: flex;
+    min-width: 35vw;
+    max-width: 35vw;
+    height: auto;
+    border-top: 35vw; 
+}
+.key{
+    flex: 1;
+    min-height: 40vh;
+    max-height: 40vh;
+    border: 3px solid black;
+}
+h1 {
+    font-family:  Impact, Charcoal, sans-serif;
+    display: flex;
+    align-content: center;
+}
+.image {
+
+   position:fixed;
+   z-index: -1 ;
+   top: 0;
+   left:0;
+min-width:100vw,  ;
+max-width: 100vw;
+min-height:100vh;
+max-height: 100vh;
+}
+#cKey{
+    background-color: black;
+    color: white;
+}
+#eKey{
+    background-color: black;
+    color: white;
+}
+#gKey{
+    background-color: black;
+    color: white;
+}
+#bKey{
+    background-color: black;
+    color: white;
+}
+#dKey{
+    background-color: white;
+    color: black;
+}
+#fKey{
+    background-color: white;
+    color: black;
+}
+#aKey{
+    background-color: white;
+    color: black;
+}
